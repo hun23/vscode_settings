@@ -1,0 +1,135 @@
+// Place your key bindings in this file to override the defaults
+[
+	// down
+	{
+		"key": "alt+k",
+		"command": "cursorDown",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "down",
+		"command": "cursorDown",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+shift+alt+k",
+		"command": "cursorDownSelect",
+		"when": "textInputFocus && !accessibilityModeEnabled"
+	},
+	{
+		"key": "ctrl+shift+Down",
+		"command": "cursorDownSelect",
+		"when": "textInputFocus && !accessibilityModeEnabled"
+	},
+
+
+	// Up
+	{
+		"key": "alt+i",
+		"command": "cursorUp",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "Up",
+		"command": "cursorUp",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+shift+alt+i",
+		"command": "cursorUpSelect",
+		"when": "textInputFocus && !accessibilityModeEnabled"
+	},
+	{
+		"key": "ctrl+shift+Up",
+		"command": "cursorUpSelect",
+		"when": "textInputFocus && !accessibilityModeEnabled"
+	},
+
+	// Right
+	{
+		"key": "alt+l",
+		"command": "cursorRight",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "Right",
+		"command": "cursorRight",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+shift+alt+l",
+		"command": "cursorWordRightSelect",
+		"when": "textInputFocus && !accessibilityModeEnabled"
+	},
+	{
+		"key": "ctrl+shift+Right",
+		"command": "cursorWordRightSelect",
+		"when": "textInputFocus && !accessibilityModeEnabled"
+	},
+	{
+		"key": "shift+alt+l",
+		"command": "cursorRightSelect",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "shift+Right",
+		"command": "cursorRightSelect",
+		"when": "textInputFocus"
+	},
+
+
+	// Left
+	{
+		"key": "alt+j",
+		"command": "cursorLeft",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "Left",
+		"command": "cursorLeft",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+shift+alt+j",
+		"command": "cursorWordLeftSelect",
+		"when": "textInputFocus && !accessibilityModeEnabled"
+	},
+	{
+		"key": "ctrl+shift+left",
+		"command": "cursorWordLeftSelect",
+		"when": "textInputFocus && !accessibilityModeEnabled"
+	},
+	{
+		"key": "shift+alt+j",
+		"command": "cursorLeftSelect",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "shift+left",
+		"command": "cursorLeftSelect",
+		"when": "textInputFocus"
+	},
+
+	// Top / Bottom
+	{
+		"key": "ctrl+alt+u",
+		"command": "cursorPageUp",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "pageup",
+		"command": "cursorPageUp",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+alt+o",
+		"command": "cursorPageDown",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "pagedown",
+		"command": "cursorPageDown",
+		"when": "textInputFocus"
+	},
+
+]

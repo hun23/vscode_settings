@@ -1,0 +1,71 @@
+{
+    
+	"editor.renderWhitespace": "all",
+	"editor.rulers":[
+			{
+					"column": 80,
+					"color": "#0b9880"
+			}
+	],
+	"editor.insertSpaces": false,
+	"editor.tabSize": 2,
+	"editor.parameterHints.cycle": true,
+	"editor.inlayHints.padding": true,
+	"editor.detectIndentation": true,
+	"editor.fontSize": 15,
+	"terminal.integrated.enableMultiLinePasteWarning": false,
+	"files.autoSave": "afterDelay",
+
+	// python
+	"[python]": {
+			"editor.insertSpaces": true,
+			"editor.tabSize": 4,
+			"editor.formatOnType": true
+	},
+	"python.languageServer": "Pylance",
+
+
+	// git
+	"git.confirmSync": false,
+	"git.enableSmartCommit": true,
+
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"security.workspace.trust.untrustedFiles": "open",
+
+	// HTML and Django
+	"auto-close-tag.activationOnLanguage": [
+			"*"
+	],
+	"emmet.includeLanguages": { "django-html": "html" },
+	"files.associations": {
+			"*.html": "django-html"
+	},
+
+	// workbench
+	"workbench.startupEditor": "none",
+	"files.autoSaveDelay": 500,
+	"C_Cpp.codeAnalysis.updateDelay": 500,
+	"debug.console.closeOnEnd": true,
+
+	// colors
+	"workbench.colorTheme": "Material Theme High Contrast",
+	"editor.tokenColorCustomizations": {
+			"[Material Theme High Contrast]": {
+					"textMateRules": [
+							{
+									"scope": "comment",
+									"settings": {
+											"foreground": "#0b9880"
+									}
+							},
+							{
+									"scope": "keyword.control",
+									"settings": {
+											"foreground": "#fb00ff",
+											"fontStyle": "italic"
+									}
+							}
+					]
+			}
+	}
+}
